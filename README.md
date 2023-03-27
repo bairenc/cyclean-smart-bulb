@@ -1,13 +1,13 @@
 1. Install paho-mqtt by: 
 
-'''linux
+```linux
 pip install paho-mqtt
-'''
+```
 
 2. Sub in MQTT Server info for line 71 (for now just used example for mqtt lib)
     
-'''python
+```python
     # Connect to the MQTT broker
     # change the domain name to designated MQTT broker
     client.connect("mqtt-domain.com", 1883, 60)
-'''
+```
