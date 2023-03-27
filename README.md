@@ -11,3 +11,5 @@ pip install paho-mqtt
     # change the domain name to designated MQTT broker
     client.connect("mqtt-domain.com", 1883, 60)
 ```
+
+Contact: Andy Chen (Chenandy@usc.edu)
